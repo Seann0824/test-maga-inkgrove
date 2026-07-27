@@ -1,11 +1,12 @@
 ---
 title: "About"
-slug: "untitled-1"
+slug: "aa ba boab o"
 pubDate: "2026-07-28"
 tags: []
 draft: true
 ---
 
-# Untitled draft
+# About
 
-Start with one sentence…
+
+这是一个关于我的页面
