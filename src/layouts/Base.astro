@@ -1,0 +1,32 @@
+---
+const { title = "Blog" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <style>
+      body {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 2.5rem 1.25rem 4rem;
+        font: 16px/1.75 ui-serif, Georgia, "Noto Serif SC", serif;
+        color: #2e2b25;
+        background: #faf6ef;
+      }
+      a { color: #c67139; }
+      h1 { line-height: 1.25; }
+      time { color: #8a857c; font-size: 0.85em; }
+      ul.posts { list-style: none; padding: 0; }
+      ul.posts li { display: flex; justify-content: space-between; gap: 1rem; padding: 0.4rem 0; }
+      img { max-width: 100%; }
+      pre { padding: 1rem; border-radius: 8px; overflow-x: auto; }
+    </style>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
