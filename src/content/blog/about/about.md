@@ -1,6 +1,6 @@
 ---
 title: "About"
-slug: "about/"
+slug: "about"
 pubDate: "2026-07-28"
 tags: []
 draft: true
