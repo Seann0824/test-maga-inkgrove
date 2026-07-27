@@ -7,6 +7,8 @@ tags: ["InkGrove"]
 draft: false
 ---
 
+# 你好，InkGrove
+
 这是你的第一篇文章，来自 InkGrove 的 Astro 模版。
 
 - 文章都住在 `src/content/blog/`，front matter 就是属性面板里的表单
