@@ -7,7 +7,7 @@ tags: ["Test"]
 draft: false
 ---
 
-# Head 
+# Head
 
 ```ts
 Const
