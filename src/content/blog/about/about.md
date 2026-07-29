@@ -10,6 +10,6 @@ draft: false
 # Head
 
 ```ts
-const name 
+
 ```
 
