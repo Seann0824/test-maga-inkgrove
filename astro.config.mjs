@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import { existsSync, readFileSync } from "node:fs";
+import stripDocumentTitle from "./remark-document-title.mjs";
 
 const [owner = "", repository = ""] = (process.env.GITHUB_REPOSITORY ?? "").split("/");
 const userSite = repository.toLowerCase() === `${owner.toLowerCase()}.github.io`;
@@ -8,6 +9,7 @@ const customDomain = existsSync("public/CNAME")
   : "";
 
 export default defineConfig({
+  markdown: { remarkPlugins: [stripDocumentTitle] },
   // GitHub Actions 会自动提供 GITHUB_REPOSITORY；本地开发无需额外配置。
   site:
     process.env.SITE_URL ??
