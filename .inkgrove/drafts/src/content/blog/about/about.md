@@ -9,10 +9,6 @@ draft: true
 
 # 你好
 
-```js
-
-```
-
 
 
 &nbsp;
