@@ -11,5 +11,5 @@ draft: false
 
 
 
-![](blob:http://localhost:5173/cef7f99a-8b02-4d23-82e3-78e3c6c06353)
+![image.png](./about.assets/a8f903d963fb4ecd.png)
 
