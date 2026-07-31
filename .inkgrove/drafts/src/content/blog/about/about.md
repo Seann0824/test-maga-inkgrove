@@ -15,7 +15,5 @@ draft: true
 
 ![](blob:http://localhost:5173/9745b847-1f19-4e97-a968-4a648691048c)
 
-![](blob:http://localhost:5173/e7064ff2-5843-4fa0-9322-08ef089723c4)
-
 ![](blob:http://localhost:5173/c2d537dd-e0f2-4ce8-87a7-5ea38ae3f212)
 
